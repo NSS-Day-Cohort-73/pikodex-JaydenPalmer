@@ -4,6 +4,7 @@
     font-size: 5em;
     margin-top: 1rem;
     background-color: #A23F5B;
+    color: #DEE5E5;
 }
 
 #container {
@@ -37,6 +38,8 @@
     font-size: 1rem;
     display: flex;
     flex-direction: column;
+    border-radius: 1em;
+    padding-bottom: 15px;
 }
 
 .piko-name {
@@ -45,17 +48,25 @@
     align-items: center;
     font-family: "copperplate", fantasy;
     font-size: 1.5em;
+    font-weight: bold;
+    color: #F7F4F3;
 }
 
 .piko-abilities {
-    font-size: .9rem;
+    font-size: .8rem;
+    color: #F7F4F3;
     align-self: center;
 }
 
 .piko-category {
+    font-size: .8rem;
+    color: #F7F4F3;
     align-self: center;
 }
 
 .piko-weakness {
+    font-size: .8rem;
+    color: #F7F4F3;
+    font-style: italic;
     align-self: center;
 }
