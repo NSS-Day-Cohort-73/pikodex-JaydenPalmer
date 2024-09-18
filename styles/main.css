@@ -40,9 +40,11 @@
 }
 
 .piko-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: "copperplate", fantasy;
     font-size: 1.5em;
-    align-self: center;
 }
 
 .piko-abilities {

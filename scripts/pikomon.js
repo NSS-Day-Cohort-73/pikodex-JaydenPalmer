@@ -7,8 +7,8 @@ export const pikodexCards = (data) => {
         pikodexHTML += `
         <article class="piko-card">
                 <img src="${pikodex.imageUrl}" alt="${pikodex.name} pic" class="piko-img">
-            <div class="info-text">
                 <p class="piko-name">${pikodex.name}</p>
+            <div class="info-text">
                 <p class="piko-category">${pikodex.category}</p>
                 <p class="piko-abilities">${pikodex.abilities}</p>
                 <p class="piko-weakness">${pikodex.weakness}</p>
